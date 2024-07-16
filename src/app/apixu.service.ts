@@ -10,7 +10,7 @@ export class ApixuService {
   constructor(private http: HttpClient) {}
 
   getWeather(location : any, units : any){
-      var requestUrl = 'http://api.weatherstack.com/current?access_key=485863664e8d01b71b0b2414e265a3f0&query=' + location;
+      var requestUrl = 'http://api.weatherstack.com/current?access_key=WEATHERSTACKAPIGOESHERE&query=' + location;
       console.log("Units: " + units);
       if (units == "f") {
         requestUrl += '&units=' + units;
