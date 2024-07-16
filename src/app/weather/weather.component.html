@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="text-center my-4">Search for Weather:</h3>
+      <form
+        [formGroup]="weatherSearchForm"
+        (ngSubmit)="sendToAPIXU(weatherSearchForm.value)"
+      >
+        <div class="form-group">
+          <input
+            class="form-control"
+            type="text"
+            id="weatherLocation"
+            aria-describedby="weatherLocation"
+            placeholder="Please input a Location"
+            formControlName="location"
+          />
+        </div>
+        <div class="form-group py-3">
+          <label for="temperature" class="text-center">Please select Fahrenheit or Celcius</label>
+            <div class="row py-3">
+                <div class="col-md-6 form-check">
+                  <input type="radio" id="fahrenheit" name="units" value="f" formControlName="units">
+                  <label for="fahrenheit">Fahrenheit</label>
+                </div>
+                <div class="col-md-6 form-check">
+                  <input type="radio" id="celcius" name="units" value="c" formControlName="units">
+                  <label for="celcius">Celcius</label>
+                </div>
+            </div>
+          </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-success btn-md">
+            Search for the weather
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <h3 class="text-center my-4">Weather Details:</h3>
+      <p class="text-center">
+        Current temperature in Fahrenheit: {{ this.weatherData?.current.temperature }}
+      </p>
+      <p class="text-center">
+        Humidity: {{ this.weatherData?.current.humidity }}
+      </p>
+      <p class="text-center">
+        Location Searched: {{ this.weatherData?.location.name }}
+      </p>
+    </div>
+  </div>
+  <div class="row py-5">
+    <div class="col-md-12 text-center">
+      <h3>Outfit Ideas for the Current Temperature</h3>
+      <div *ngFor="let item of outfitData">
+        {{item.option}}
+      </div>
+    </div>
+  </div>
+</div>

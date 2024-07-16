@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "90+",
+    "ideas":
+    [
+      "Tank top and a lightweight skirt",
+      "Shortalls and a v-neck t-shirt",
+      "Crop top and denim shorts"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "80-89",
+    "ideas":
+    [
+      "Maxi dress and sandals",
+      "Puff sleeve top and denim shorts",
+      "Romper and sneakers"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "70-79",
+    "ideas":
+    [
+      "Button down shirt and linen shorts",
+      "T-shirt and denim maxi skirt",
+      "Jumpsuit"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "60-69",
+    "ideas":
+    [
+      "Sweatshirt and bike shorts",
+      "Lightweight turtleneck, vest, and slacks",
+      "Leather jacket, t-shirt, and jeans"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "50-59",
+    "ideas":
+    [
+      "Sweater and jeans",
+      "Chunky sweater and a maxi skirt",
+      "Sweater dress with tights"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "40-49",
+    "ideas":
+    [
+      "Sweatpants, sweatshirt, and trenchcoat",
+      "Sweater and thermal leggings",
+      "Peacoat, thick blouse, and jeans"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "30-39",
+    "ideas":
+    [
+      "Chunky sweater and jeans",
+      "Long sweater dress",
+      "Graphic sweatshirt and overalls"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Under 30",
+    "ideas":
+    [
+      "Parka, sweater, and jeans with thermal leggings underneath",
+      "Turtleneck with jeans and a woven trenchcoat"
+    ]
+  }
+
+]
